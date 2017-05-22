@@ -1,26 +1,34 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+This is a starter template for [Ionic](http://ionicframework.com/docs/) and  [Firebase](https://firebase.google.com) projects.
 
 ## How to use this template
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/driftyco/ionic2-app-base).
-
 To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/driftyco/ionic2-app-base).
 
-### With the Ionic CLI:
+### With CLI:
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+The first thing you’ll do is to make sure you have node.js installed, get V6.
 
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
-```
-
-Then, to run it, cd into `myBlank` and run:
+The second thing you’ll do is make sure you have Ionic, Cordova and Typescript installed, you’ll do that by opening your terminal and typing:
 
 ```bash
-$ ionic platform add ios
-$ ionic run ios
+$ sudo npm install -g ionic cordova typescript
 ```
 
-Substitute ios for android if not on a Mac.
+Then, to run it, cd into `firebase-ionic2-starter` and update firebaseConfig from firebase website for web in  /src/app/app.module.ts
+ 
+ ```js
+export const firebaseConfig = {
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  storageBucket: "",
+  messagingSenderId: ""
+};
+ ```
+Then, run below commands : 
+
+```bash
+$ npm install
+$ ionic serve --lab
+```
 
