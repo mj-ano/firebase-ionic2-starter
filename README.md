@@ -14,7 +14,11 @@ The second thing you’ll do is make sure you have Ionic, Cordova and Typescript
 $ sudo npm install -g ionic cordova typescript
 ```
 
-Then, to run it, cd into `firebase-ionic2-starter` and update firebaseConfig from firebase website for web in  /src/app/app.module.ts
+Then, to run it, cd into `firebase-ionic2-starter` and update firebaseConfig from firebase website for web in  
+
+```bash
+/src/app/app.module.ts
+ ```
  
  ```js
 export const firebaseConfig = {
