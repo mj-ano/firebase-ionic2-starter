@@ -1,8 +1,8 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) and  [Firebase](https://firebase.google.com) projects.
+This is a starter template for [Ionic](http://ionicframework.com/docs/) with [Firebase](https://firebase.google.com).
 
 ## How to use this template
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/driftyco/ionic2-app-base).
+To use this template, clone this repository into your system.
 
 ### With CLI:
 
@@ -32,3 +32,4 @@ $ npm install
 $ ionic serve --lab
 ```
 
+To add Android & ios support read more in Ionic website.
